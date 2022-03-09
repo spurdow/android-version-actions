@@ -1,4 +1,4 @@
-name: "Increment the version code of your project"
+name: "Increment the version code of your project and returns the inputs as outputs"
 description: "This action will increment the version code directly in build.gradle . "
 inputs:
   gradlePath:
