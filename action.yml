@@ -14,6 +14,10 @@ inputs:
 outputs:
   result: # id of output
     description: "Action Result"
+  outputVersionName: # result of version name
+    description: "Result of Version Name"
+  outputVersionCode: # result of version code
+    description: "Result of Version Code"
 runs:
   using: "node12"
   main: "index.js"
