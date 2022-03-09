@@ -27,7 +27,9 @@ try {
                 console.log(`Successfully override version code ${versionCode}`)
             if (versionName.length > 0)
                 console.log(`Successfully override version code ${versionName}`)
-            core.setOutput("result", `${versionName}`);
+            core.setOutput("result", `Done with version name ${versionName} and version code ${versionCode}`);
+            core.setOutput("outputVersionName", `${versionName}`);
+            core.setOutput("outputVersionCode", `${versionCode}`);
         });
     });
 
